@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTTERY SIMULATOR</title>
+
+    <link rel="stylesheet" href="./style/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO LOTTERY HELL</h1>
+        <h1>--------------------------------------------------------</h1>
+        <p>Just be patient and keep on tryin', friend. You'll get there eventually.
+        <br/>
+            --------------------------------------------------------
+        <br/>
+            You get five numbers and what we'll call an "ultraball" pick.
+        <br/>
+            They say your odds are 1:292 million, but I'm sure you can do better,
+            right?
+        </p>
+    </div>
+    <br/>
+    <br/>
+    <button class="tryMe" onclick=RUNIT()>Try To Win</button>
+    <br/>
+    <br/>
+    <div>
+        <p class="timeSpent">You've played for <span id="years">_</span> years so far.</p>
+        <p>That's <span id="totalPlays">_</span> games.</p> 
+        <br/>
+        <p class="moneySpent">You've spent $<span id="money">_</span> to date.</p>
+        <br/>
+
+    </div>
+
+<script src="./js/lotto.js"></script>
+</body>
+</html>
